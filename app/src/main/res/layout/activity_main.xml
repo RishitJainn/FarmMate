@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="308dp"
+        android:layout_height="42dp"
+        android:text="Moisture Level of the Soil"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:typeface="serif"
+        android:textColor="#1B7069"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+<!--    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="191dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/border"
+        android:hint="Moisture Level Value"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text1" />-->
+
+    <!--    The Four green Buttons-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="237dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="168dp"
+        android:alpha="0.7"
+        android:background="@drawable/pushbutton"
+        android:shadowDx="@android:integer/config_shortAnimTime"
+        android:shadowDy="@android:integer/config_shortAnimTime"
+        android:text="Display Moisture Level"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:onClick="open"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="142dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="32dp"
+        android:alpha="0.8"
+        android:background="@drawable/round"
+        android:text="New Crop Data"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:shadowDy="@android:integer/config_longAnimTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="142dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="32dp"
+        android:alpha="0.8"
+        android:background="@drawable/round"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:shadowDy="@android:integer/config_longAnimTime"
+        android:text="Inventory"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="142dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="384dp"
+        android:alpha="0.8"
+        android:background="@drawable/round"
+        android:text="Timeline"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:shadowDy="@android:integer/config_longAnimTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="142dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="384dp"
+        android:alpha="0.8"
+        android:background="@drawable/round"
+        android:text="Database"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:shadowDy="@android:integer/config_longAnimTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
